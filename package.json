@@ -1,0 +1,23 @@
+{
+    "name": "sokets",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app"
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "Darien Romero <djromero905@misena.edu.co>",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^9.0.1",
+        "express": "^4.17.1",
+        "socket.io": "^4.0.2"
+    },
+    "devDependencies": {
+        "@babel/helper-compilation-targets": "^7.13.16"
+    }
+}
